@@ -1,11 +1,47 @@
-.navbar {
+.navbar--container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2em 1em;
+  background-color: #ffffff;
 }
 
 .navbar--hamburger-container > button {
   background-color: transparent;
   border: none;
+}
+
+.navbar--dropdown {
+  background-color: #191921;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 32px;
+  width: 252px;
+  position: absolute;
+  right: 26px;
+}
+
+.navbar--dropdown > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin: 1.5em;
+}
+
+.navbar--dropdown > ul > li {
+  padding: 1em 2em;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.navbar--dropdown > ul > li:hover {
+  transform: scale(1.1);
+}
+
+.navbar--important-button {
+  background-color: #f94f4f;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 1em;
 }
