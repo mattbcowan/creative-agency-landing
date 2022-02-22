@@ -1,7 +1,9 @@
+import Navbar from "./components/navbar/Navbar";
+
 function App() {
   return (
     <div className="App">
-      {/* Navigation */}
+      <Navbar />
       {/* Header Photo */}
       {/* Branding and Design */}
       {/* Design is Strategic */}

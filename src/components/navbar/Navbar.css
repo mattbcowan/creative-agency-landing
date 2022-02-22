@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 1em;
+}
+
+.navbar--hamburger-container > button {
+  background-color: transparent;
+  border: none;
+}
