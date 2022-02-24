@@ -1,0 +1,27 @@
+.hero--image > * {
+  width: 100%;
+}
+
+.hero--text {
+  padding: 1.5em 1.5em;
+}
+
+.hero--text > h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.hero--text > p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.hero--text > button {
+  background-color: #f94f4f;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 1.4em 2.3em;
+  margin-top: 1em;
+}
