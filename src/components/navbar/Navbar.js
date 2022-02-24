@@ -7,22 +7,14 @@ import useWindowSize from "../../hooks/useWindowSize";
 const variants = {
   visible: {
     opacity: 1,
-    x: "0",
-    ease: "easeIn",
-    duration: 0.3,
-    transition: {
-      when: "beforeChildren",
-      staggerChildren: 0.4,
-    },
+    ease: "ease",
+    duration: 0.1,
   },
   hidden: {
     opacity: 0,
-    x: "200%",
-    ease: "easeIn",
-    duration: 0.4,
-    transition: {
-      when: "afterChildren",
-    },
+    ease: "ease",
+    overflow: "hidden",
+    duration: 0.1,
   },
 };
 
